@@ -1,0 +1,56 @@
+$countries: argentina, brazil, canada, netherlands, spain
+
+.star
+  background-image: url("images/star.svg")
+  background-repeat: repeat
+  height: 20px
+  background-size: contain
+  margin: 10px auto
+
+@each $country in $countries
+  .#{$country}
+    display: flex
+    align-items: flex-end
+    background-image: url("images/#{$country}.svg")
+    width: 100px
+    height: 100px
+    text-align: center
+    margin: 0 auto
+    margin-top: 25px
+    border-radius: 50px
+    + p
+      @if $country == argentina
+        color: #328af3
+      @else if $country == brazil
+        color: #6da544
+      @else if $country == canada
+        color: #d80027
+      @else if $country == netherlands
+        color: #0052b3
+      @else if $country == spain
+        color: #FF9800
+
+.fon
+  width: 150px
+  background-color: cornsilk
+  margin-right: 20px
+  border-bottom: 3px solid blue
+  border-radius: 20px
+  text-align: center
+  @for $i from 2 through 4
+    &:nth-child(#{$i})
+      border-bottom-color: red
+  @for $i from 1 through 5
+    &:nth-child(#{$i})
+      .star
+        width: 20px * $i
+
+.country_list
+  display: flex
+  justify-content: center
+  p
+    font-size: 14px
+    text-transform: uppercase
+    font-weight: bold
+    margin: 15px auto
+

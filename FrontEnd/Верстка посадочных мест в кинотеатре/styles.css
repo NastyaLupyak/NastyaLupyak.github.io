@@ -1,0 +1,76 @@
+@font-face{
+	font-family:'Solomon';
+	src:url('fonts/fonts/solomon_sans_normal.woff2') format('woff2'),
+	url('fonts/fonts/solomon_sans_normal.woff') format('woff');
+}
+
+
+body{
+	font-family: 'Solomon', sans-serif;
+	margin: 0;
+	 }
+
+ hr{
+ 	height: 6px;
+	background: white;
+	border: none;
+	 }
+	 	
+
+.cinema{
+	background: #6449b0;
+	width: 300px;
+	padding: 20px 20px 10px 20px;
+	margin: 0 auto;
+}
+
+.name{
+	color:rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	font-size:13px;
+}
+
+span{
+	width: 12px;
+	height: 12px;
+	background-color:rgba(255, 255, 255, 0.5);
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.example{
+	margin-right: 3px;
+	margin-left: 15px;
+}
+
+.booked{
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+.place{
+	display: inline;
+	color: white;
+}
+.selected{
+	background-color: white;
+}
+.available{
+	background-color:transparent;
+	border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.hall{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.row_1{
+	margin-right: 40px;
+	display: inline-block;
+}
+
+.number_class{
+	margin-top:40px;
+}

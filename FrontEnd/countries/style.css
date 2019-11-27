@@ -1,0 +1,106 @@
+.star {
+  background-image: url("images/star.svg");
+  background-repeat: repeat;
+  height: 20px;
+  background-size: contain;
+  margin: 10px auto; }
+
+.argentina {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("images/argentina.svg");
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50px; }
+  .argentina + p {
+    color: #328af3; }
+
+.brazil {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("images/brazil.svg");
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50px; }
+  .brazil + p {
+    color: #6da544; }
+
+.canada {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("images/canada.svg");
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50px; }
+  .canada + p {
+    color: #d80027; }
+
+.netherlands {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("images/netherlands.svg");
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50px; }
+  .netherlands + p {
+    color: #0052b3; }
+
+.spain {
+  display: flex;
+  align-items: flex-end;
+  background-image: url("images/spain.svg");
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50px; }
+  .spain + p {
+    color: #FF9800; }
+
+.fon {
+  width: 150px;
+  background-color: cornsilk;
+  margin-right: 20px;
+  border-bottom: 3px solid blue;
+  border-radius: 20px;
+  text-align: center; }
+  .fon:nth-child(2) {
+    border-bottom-color: red; }
+  .fon:nth-child(3) {
+    border-bottom-color: red; }
+  .fon:nth-child(4) {
+    border-bottom-color: red; }
+  .fon:nth-child(1) .star {
+    width: 20px; }
+  .fon:nth-child(2) .star {
+    width: 40px; }
+  .fon:nth-child(3) .star {
+    width: 60px; }
+  .fon:nth-child(4) .star {
+    width: 80px; }
+  .fon:nth-child(5) .star {
+    width: 100px; }
+
+.country_list {
+  display: flex;
+  justify-content: center; }
+  .country_list p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15px auto; }
+
+/*# sourceMappingURL=style.css.map */

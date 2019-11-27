@@ -1,0 +1,92 @@
+body {
+  margin: 0 auto;
+  padding: 30px;
+  font-family: "Lato", sans-serif;
+  color: #9f9f9f;
+  width: 300px;
+  background: #fbfaff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px; }
+
+a {
+  color: #9f9f9f;
+  text-decoration: none; }
+  a:hover {
+    color: #616060; }
+
+h1 {
+  font-size: 12px;
+  color: #aaa3c7;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.menu {
+  border-bottom: 2px solid #ebe8f5; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul li {
+    margin-bottom: 20px; }
+    ul li a svg {
+      margin-right: 10px;
+      width: 15px; }
+      ul li a svg path {
+        fill: #9f9f9f; }
+    ul li a:hover svg path {
+      fill: #616060; }
+
+.categories {
+  border-bottom: 2px solid #ebe8f5;
+  width: 100%; }
+
+.categories__block {
+  display: flex;
+  flex-wrap: wrap;
+  color: white; }
+  .categories__block a {
+    text-align: center;
+    width: 33.3%;
+    margin-right: 8px;
+    padding: 10px 21px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase; }
+    .categories__block a:nth-of-type(1) {
+      background-color: #b88de0; }
+    .categories__block a:nth-of-type(2) {
+      background-color: #fda796; }
+    .categories__block a:nth-of-type(3) {
+      background-color: #f78ea5; }
+    .categories__block a:nth-of-type(4) {
+      background-color: #febe87; }
+
+.calendar div {
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px; }
+  .calendar div .author {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 900; }
+  .calendar div:nth-of-type(1) {
+    background: #fbe3e9;
+    border-left: 7px solid #f78ea5; }
+    .calendar div:nth-of-type(1) span {
+      color: #f78ea5; }
+  .calendar div:nth-of-type(2) {
+    background: #fff0dd;
+    border-left: 7px solid #febe87; }
+    .calendar div:nth-of-type(2) span {
+      color: #febe87; }
+  .calendar div:nth-of-type(3) {
+    background: #eae3f1;
+    border-left: 7px solid #b88de0; }
+    .calendar div:nth-of-type(3) span {
+      color: #b88de0; }
+
+/*# sourceMappingURL=style.css.map */

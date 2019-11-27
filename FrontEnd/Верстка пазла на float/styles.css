@@ -1,0 +1,58 @@
+.parent{
+  width: 300px;
+  height: 300px;
+  /*border: 2px solid black;*/
+}
+.parent div{
+  margin: 2.5px;
+  display: inline-block;
+}
+
+.black{
+  width: 70px;
+  height: 70px;
+  background:black;
+  float: left;
+}
+
+.yellow{
+  width: 145px;
+  height: 70px;
+  background: yellow;
+  float: left;
+}
+
+.green{
+  width: 70px;
+  height: 145px;
+  background:green;
+  float: right;
+}
+
+.pink{
+  width: 70px;
+  height: 220px;
+  background:pink;
+  float: left;
+}
+
+.blue{
+  width: 70px;
+  height: 145px;
+  background:blue;
+  float: left;
+}
+
+.red{
+  width: 70px;
+  height: 70px;
+  background:red;
+  float: left;
+}
+
+.grey{
+  width: 220px;
+  height: 70px;
+  background:grey;
+  float: left;
+}
